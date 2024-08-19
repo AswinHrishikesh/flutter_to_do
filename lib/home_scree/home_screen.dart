@@ -80,8 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
         title: const Center(child: Text('TO DO')),
         elevation: 0,
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation
-          .centerDocked, // Centers the FAB at the bottom
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
         child: const Icon(Icons.add),
